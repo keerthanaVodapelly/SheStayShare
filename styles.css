@@ -1,0 +1,172 @@
+/* Common CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8c94;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e77d85;
+}
+
+/* Header styles */
+header {
+    background-color: #ff8c94;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff8c94;
+    cursor: pointer;
+}
+
+/* Get Started section */
+.get-started {
+    background-color: #fce8e7;
+    padding: 20px;
+}
+
+/* Features section */
+.features {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.features h2 {
+    color: #ff8c94;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature-box img {
+    width: 100px; /* Adjust image size */
+    height: 100px; /* Adjust image size */
+    margin-bottom: 10px;
+}
+
+/* Support, Hosting, and News sections */
+.support, .hosting, .news {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.support h2, .hosting h2, .news h2 {
+    color: #ff8c94;
+}
+
+.support ul, .hosting ul, .news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.support li, .hosting li, .news li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer-links {
+    background-color: #ff8c94;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .copyright {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
